@@ -69,7 +69,7 @@ mb_substitute_character('none');
  * Set the default language
  */
 I18n::lang('en-us');
-
+Cookie::$salt = 'salt salt salt';
 if (isset($_SERVER['SERVER_PROTOCOL']))
 {
 	// Replace the default protocol.
@@ -120,7 +120,7 @@ Kohana::$config->attach(new Config_File);
  * Enable modules. Modules are referenced by a relative or absolute path.
  */
 Kohana::modules(array(
-	// 'auth'       => MODPATH.'auth',       // Basic authentication
+	'auth'       => MODPATH.'auth',       // Basic authentication
 	// 'cache'      => MODPATH.'cache',      // Caching with multiple backends
 	// 'codebench'  => MODPATH.'codebench',  // Benchmarking tool
 	// 'database'   => MODPATH.'database',   // Database access
@@ -137,6 +137,6 @@ Kohana::modules(array(
  */
 Route::set('default', '(<controller>(/<action>(/<id>)))')
 	->defaults(array(
-		'controller' => 'welcome',
+		'controller' => 'template',
 		'action'     => 'index',
 	));
