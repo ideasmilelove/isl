@@ -7,7 +7,7 @@ class Controller_Template extends Controller {
         // If this user doesn't have the admin role, and is not trying to login, redirect to login
         if ( ! Auth::instance()->logged_in('admin') AND !Auth::instance()->logged_in('login'))
         {
-			$this->response->body(View::factory('test')); 
+			$this->response->body(View::factory('frontpage')); 
 			// This will load views/hello/world.php
         }
     }
