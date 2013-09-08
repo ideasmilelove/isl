@@ -1,9 +1,40 @@
 .titlebar{
-
+	width:80%;
+	height:30%;
+	border-style:solid;
+	border-color:black;
+	border-width:1px;
+	float: left;
+	background: red;
 }
 .loginbar{
-
+	width:18%;
+	height:80%;
+	border-style:solid;
+	border-color:black;
+	border-width:1px;
+	float:left;
+	position: relative;
+	background: blue;
+	
 }
 .salesbar{
-	
+	width:80%;
+	height:30%;
+	border-style:solid;
+	border-color:black;
+	border-width:1px;
+	float: left;
+	position: none;
+	background: green;
+}
+.footerbar{
+	width:100%;
+	height:10%;
+	border-style:solid;
+	border-color:black;
+	border-width:1px;
+	float: left;
+	background: black;
+	color:white;
 }
