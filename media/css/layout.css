@@ -1,46 +1,62 @@
-#frontbody{
+#body{
 	width:100%;
 	height:100%;
+	background-color: #a1bad1;
+	background-image: url(../img/islbg.jpg);
+	background-position: center top;
+	background-repeat: no-repeat;
 }
 #bodyheader
 {
+	margin-top: 20px;
 	width:100%;
 	height:20%;
 }
-.title{
-	width:50%;
-	height:100%;
-	float: left;
-	background: red;
-}
-.login{
-	width:50%;
-	height:100%;
-	float:left;
-	position: relative;
-	background: blue;
-}
+	#headerwrapper{
+			margin: 0px auto;
+			display: block;
+			overflow:hidden;
+			min-height: 768px;
+			height: 100%;
+			width: 1024px;
+
+	}
+		#title{
+
+			width:50%;
+			height:100%;
+			float: left;
+		}
+			#logo{
+				height:100px;
+				width:100px;
+			}
+		#login{
+			width:50%;
+			height:100%;
+			float:left;
+		}
 #contentwrapper{
 	width: 100%;
 	height:100%;
 	float: left;
-	position:relative;
-	background: green;	
+	
 }
 	#content{
+	background-image: url(../img/bg6.png);
+	background-repeat: repeat;
 		margin: 0px auto;
 		display: block;
 		overflow:hidden;
 		min-height: 768px;
 		height: 100%;
 		width: 1024px;
-		background-color: white;
 		text-align: center;
 	}
-.footer{
+#footer{
+	background-color: grey;
 	width:100%;
 	height:10%;
-	float: left;
-	background: black;
 	color:white;
+		float: left;
 }

@@ -1,14 +1,20 @@
 <html>
  <head>
+  <link rel="stylesheet" type="text/css" href="media/css/normalize.css">
  <link rel="stylesheet" type="text/css" href="media/css/layout.css">
+  <link rel="stylesheet" type="text/css" href="media/css/logoandquote.css">
+  <link rel="stylesheet" type="text/css" href="media/css/login.css">
   <title><?php echo $title?></title>
  </head>
- <body id="frontbody">	
+ <body id="body">	
  	<div id="bodyheader">
-		 <div class="title">
-		  <?php echo '<p>title</p>'; ?> 
-		 </div><div class="login">
-		  <?php echo '<p>login</p>'; ?> 
+ 		<div id="headerwrapper">
+			 <div id="title">
+			 <?php echo Form::image(NULL, NULL, array('src' => $logo,
+														'id' => 'logo')); ?>
+			 </div><div id="login">
+			  <?php echo $loginandprofileform; ?> 
+			 </div>
 		 </div>
 	 </div>
 	 <div id="contentwrapper">
@@ -16,7 +22,7 @@
 	  		<?php echo $contentStuff; ?>
 	  	</div>
 	 </div>
-	 <div class="footer">
+	 <div id="footer">
 	  <?php echo $copyright; ?> 
 	 </div>
  </body>
