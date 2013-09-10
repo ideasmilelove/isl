@@ -104,6 +104,7 @@ if (isset($_SERVER['KOHANA_ENV']))
  */
 Kohana::init(array(
 	'base_url'   => '/isl/',
+	 'index_file' => FALSE,
 ));
 
 /**

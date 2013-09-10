@@ -1,19 +1,23 @@
 <html>
  <head>
- <link rel="stylesheet" type="text/css" href="media/css/frontpage.css">
+ <link rel="stylesheet" type="text/css" href="media/css/layout.css">
   <title><?php echo $title?></title>
  </head>
  <body id="frontbody">	
-	 <div class="titlebar">
-	  <?php echo '<p>title</p>'; ?> 
-	 </div><div class="loginbar">
-	  <?php echo '<p>login</p>'; ?> 
+ 	<div id="bodyheader">
+		 <div class="title">
+		  <?php echo '<p>title</p>'; ?> 
+		 </div><div class="login">
+		  <?php echo '<p>login</p>'; ?> 
+		 </div>
 	 </div>
-	 <div class="salesbar">
-	  <?php echo $contentStuff; ?>
+	 <div id="contentwrapper">
+	 	<div id="content">
+	  		<?php echo $contentStuff; ?>
+	  	</div>
 	 </div>
-	 <div class="footerbar">
-	  <?php echo '<p>footer</p>'; ?> 
+	 <div class="footer">
+	  <?php echo $copyright; ?> 
 	 </div>
  </body>
 </html>
