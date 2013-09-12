@@ -1,18 +1,8 @@
-   
-.emailtxt{
-   	background: white;
-    border: 1px double #DDD;
-    border-radius: 5px;
-    box-shadow: 0 0 5px #333;
-    color: #666;
-    float: left;
-    padding: 5px 10px;
-    width: 165px;
-    outline: none;
+#passtxt{
+    margin-left:10px;
 }
 
-.passwordtxt{
- 	margin: 0px 10px 0px 10px;
+.txtbox{
    	background: white;
     border: 1px double #DDD;
     border-radius: 5px;

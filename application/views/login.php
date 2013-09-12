@@ -8,7 +8,7 @@ echo Form::input('emailtxt',NULL,array( 'class' => 'txtbox',
  //echo Form::label('passwordlbl', 'Password');
 
 echo Form::password('password',NULL,array(	'class' => 'txtbox',
-                              				'id' => 'passwordtxt',
+                              				'id' => 'passtxt',
                               				'placeholder' => '  Password')); 
 
 echo Form::submit('save', '  Login  ',array('class' => 'loginbtn blue',
