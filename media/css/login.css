@@ -1,5 +1,5 @@
    
- .emailtxt{
+.emailtxt{
    	 background: white;
     border: 1px double #DDD;
     border-radius: 5px;
@@ -10,9 +10,10 @@
     width: 165px;
     outline: none;
 }
- .passwordtxt{
+
+.passwordtxt{
  	margin: 0px 10px 0px 10px;
-   	 background: white;
+   	background: white;
     border: 1px double #DDD;
     border-radius: 5px;
     box-shadow: 0 0 5px #333;
@@ -22,7 +23,8 @@
     width: 165px;
     outline: none;
 }
-.loginbtn {
+
+.loginbtn{
     text-decoration: none;
     font: bold 13px Arial;
     display: block;
@@ -35,14 +37,16 @@
     -moz-transition: all 0.5s ease;
 	-ms-transition: all 0.5s ease;
 	-o-transition: all 0.5s ease;
-    transition: all 0.5s ease;}
+    transition: all 0.5s ease;
+}
 
-.loginbtn:hover {
+.loginbtn:hover{
     -moz-border-radius: 5px;
-    border-radius: 5px;}
+    border-radius: 5px;
+}
 
 
-.blue {
+.blue{
     color: #fff;
     background: #48C9FF;
     background: -webkit-linear-gradient(top, #48C9FF 0%, #2EA8E5 100%);
@@ -65,8 +69,9 @@
         inset 0 1px 0 #38bdf4,
         inset 0 2px 0 #7bdeff,
         0 1px 3px #777,
-        0 0px 1px #ccc;}
-
-.blue span {
-    color: #217aa6;
-    text-shadow: #78d2f0 0 1px 0;}​
+        0 0px 1px #ccc
+}
+    .blue span{
+        color: #217aa6;
+        text-shadow: #78d2f0 0 1px 0;
+    }​
