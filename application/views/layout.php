@@ -5,6 +5,7 @@
 		<link rel="stylesheet" type="text/css" href="media/css/layout.css">
 	 	<link rel="stylesheet" type="text/css" href="media/css/logoandquote.css">
 		<link rel="stylesheet" type="text/css" href="media/css/login.css">
+				<link rel="stylesheet" type="text/css" href="media/css/register.css">
 
 		<!-- SCRIPTS -->
 
@@ -20,6 +21,7 @@
 	 		<div id="login"><?php echo $loginandprofileform; ?></div>
  		</div>
 
+
  		<!--.........................................HEAD -->
  		<div id="headerwrap">
 
@@ -33,7 +35,9 @@
 				<p style="margin-left:50px;">or just nice pictures................</p>
 			</div>
 	 	</div>
-
+	 	<div id="wrapper">
+ 			 <div id="slide"> <?php  echo $register; ?></div>
+ 		</div>
 		<!--.........................................CONTENT -->
 		<div id="contentwrap">
 	 		<div id="content"><?php echo $contentStuff; ?></div>

@@ -3,7 +3,9 @@
 echo Form::open('register');
 echo Form::input('regfullnametxt',NULL,array( 'class' => 'txtbox',
 										'id' => 'regfullnametxt',
-										'placeholder' => '  Full Name'))
+										'placeholder' => '  Full Name'));
+echo Form::image(NULL, NULL, array('src' => 'media/img/register.jpg',
+	'id' => 'registerbtn'));
 //echo Form::label('emaillbl', 'Email Address'); 
 echo Form::input('regemailtxt',NULL,array( 'class' => 'txtbox',
 										'id' => 'regemailtxt',
