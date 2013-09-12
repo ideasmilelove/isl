@@ -13,21 +13,20 @@
 
  	<body>	
 
- 		<!--.........................................HEAD -->
- 		<div id="bodyheader">
- 			<div id="headerwrapper">
-				<div id="title">
-					<?php echo Form::image(NULL, NULL, array('src' => $logo,
-															 'id' => 'logo')); ?>
-				</div>
+ 		<div id="topbar">
+	 		<div id="">dsadsa</div>
 
-				<!-- login.php -->
-				<div id="login"><?php echo $loginandprofileform; ?></div>
-			</div>
+	 		<!-- login.php -->
+	 		<div id="login"><?php echo $loginandprofileform; ?></div>
+ 		</div><br>
+
+ 		<!--.........................................HEAD -->
+ 		<div id="headerwrap">
+			<a>put interesting stuff here</a>
 	 	</div>
 
 		<!--.........................................CONTENT -->
-		<div id="contentwrapper">
+		<div id="contentwrap">
 	 		<div id="content"><?php echo $contentStuff; ?></div>
 		</div>
 

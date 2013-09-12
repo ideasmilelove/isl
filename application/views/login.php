@@ -1,17 +1,18 @@
+<?php 
 
-	<?php echo Form::open('login');?>
-	<?php //echo Form::label('emaillbl', 'Email Address'); ?>
-	<?php echo Form::input('emailtxt',NULL,
-						array('class' => 'emailtxt',
-                              'id' => 'emailtxt',
-                              'placeholder' => '  Email')); ?>
-	<?php //echo Form::label('passwordlbl', 'Password');  ?>
+echo Form::open('login');
+//echo Form::label('emaillbl', 'Email Address'); 
+echo Form::input('emailtxt',NULL,array( 'class' => 'txtbox',
+										'id' => 'emailtxt',
+										'placeholder' => '  Email')); 
+ //echo Form::label('passwordlbl', 'Password');
 
-	<?php echo Form::password('password',NULL,						
-								array('class' => 'passwordtxt',
-                              			'id' => 'passwordtxt',
-                              			'placeholder' => '  Password')); ?>
-	<?php echo Form::submit('save', '  Login  ',
-								array('class' => 'loginbtn blue',
-                              			'id' => 'loginbtn blue')); ?>
-	<?php echo Form::close(); ?>
+echo Form::password('password',NULL,array(	'class' => 'txtbox',
+                              				'id' => 'passwordtxt',
+                              				'placeholder' => '  Password')); 
+
+echo Form::submit('save', '  Login  ',array('class' => 'loginbtn blue',
+                              				'id' => 'loginbtn blue')); 
+echo Form::close(); 
+
+?>
