@@ -1,4 +1,5 @@
 body{
+	font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	background-color: #a1bad1;
 	/*background-image: url(../img/islbg.jpg);/**/
 	background-position: center top;
@@ -7,27 +8,33 @@ body{
 
 #topbar{
 	width:100%;
-	height:20px;
-	background-color:white;
+	height:35px;
+	min-width:1024px;
+	background-color:#555555;
 	position:fixed;
 }
-
-	#headerwrap{
-		margin: 0px auto;
-		height: 100%;
-		width: 1024px;
+	#logo{
+		color:#cccccc;
+		margin:5px;
+		float:left;
 	}
 
-		#title{
-			width:50%;
-			height:100%;
-			float: left;
-		}
-		#login{
-			width:50%;
-			height:100%;
-			float:left;
-		}
+	#login{
+		margin:5px;
+		float:right;
+	}
+
+#headerwrap{
+	margin: 15px 0 0 0;
+	width:100%;
+	height:300px;
+	min-width:1024px;
+	background-color:#555555;
+}
+	#header{
+		margin: 0px auto;
+		width:1024px;
+	}
 
 #contentwrap{
 	width: 100%;
@@ -44,7 +51,6 @@ body{
 
 		height: 100%;
 		width: 1024px;
-		text-align: center;
 	}
 #footer{
 	background-color: gray;

@@ -14,7 +14,7 @@
  	<body>	
 
  		<div id="topbar">
-	 		<div id="">dsadsa</div>
+	 		<div id="logo">LOGO-HERE</div>
 
 	 		<!-- login.php -->
 	 		<div id="login"><?php echo $loginandprofileform; ?></div>
@@ -22,7 +22,16 @@
 
  		<!--.........................................HEAD -->
  		<div id="headerwrap">
-			<a>put interesting stuff here</a>
+
+			<div id="header">
+				put interesting stuff here
+				<br>
+				<p style="margin-left:100px;">something very interesting................</p>
+				<br>
+				<p style="margin-left:200px;">something extremely nice and interesting please................</p>
+				<br>
+				<p style="margin-left:50px;">or just nice pictures................</p>
+			</div>
 	 	</div>
 
 		<!--.........................................CONTENT -->
