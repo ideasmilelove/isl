@@ -18,7 +18,7 @@
 
 	 		<!-- login.php -->
 	 		<div id="login"><?php echo $loginandprofileform; ?></div>
- 		</div><br>
+ 		</div><br style="clear:both;margin:0;padding:0;">
 
  		<!--.........................................HEAD -->
  		<div id="headerwrap">
