@@ -35,9 +35,7 @@
 				<p style="margin-left:50px;">or just nice pictures................</p>
 			</div>
 	 	</div>
-	 	<div id="wrapper">
- 			 <div id="slide"> <?php  echo $register; ?></div>
- 		</div>
+
 		<!--.........................................CONTENT -->
 		<div id="contentwrap">
 	 		<div id="content"><?php echo $contentStuff; ?></div>
@@ -46,5 +44,7 @@
 	 	<!--.........................................FOOT -->
 	 	<div id="footer"><?php echo $copyright; ?></div>
 
+	 	<!--.........................................WIDGETS -->
+ 		<div id="w_register"><?php  echo $register; ?></div><!-- register.php -->
  	</body>
 </html>

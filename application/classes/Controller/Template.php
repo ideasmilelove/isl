@@ -24,7 +24,7 @@ public $template = 'layout';
         View::bind_global('logo',$this->logo);
 
 		$this->template->loginandprofileform = View::factory('login');
-		$this->template->register = View::factory('tabpages/register');
+		$this->template->register = View::factory('wigets/register');
 		$this->template->contentStuff = View::factory('frontpage');
     }
 	public function action_index()
