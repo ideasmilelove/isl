@@ -12,29 +12,29 @@ length:			[3] _ [3] [2-10]
 echo 
 Form::open('user/register') //User::register()
 .
-	Form::input('fname',NULL,
-		array( 	'class' => 'txtbox',
+	Form::input('reg_txtfname',NULL,
+		array( 	'class' => 'txtbox rad5',
 				'id' => 'reg_txtfname',
 				'placeholder' => 'Full Name')) //FULL NAME
 	.
-	Form::input('email',NULL,
-		array( 'class' => 'txtbox',
+	Form::input('reg_txtemail',NULL,
+		array( 'class' => 'txtbox rad5',
 				'id' => 'reg_txtemail',
 				'placeholder' => 'Email')) //EMAIL
 	.
-	Form::password('pass',NULL,
-		array(	'class' => 'txtbox',
+	Form::password('reg_txtpass',NULL,
+		array(	'class' => 'txtbox rad5',
 				'id' => 'reg_txtpass',
 				'placeholder' => 'Password')) //PASSWORD
 	.
-	Form::password('regretypepassword',NULL,
-		array(	'class' => 'txtbox',
-				'id' => 'regretypepasstxt',
-				'placeholder' => 'Re-Type Password')) //RE-TYPE PASSWORD
+	Form::password('reg_txtpass2',NULL,
+		array(	'class' => 'txtbox rad5',
+				'id' => 'reg_txtpass2',
+				'placeholder' => 'Confirm Password')) //CONFIRM PASSWORD
 	.
-	Form::submit('save', '  Register  ',
-		array(	'class' => 'registerbtn blue',
-				'id' => 'registerbtn blue')) //BUTTON (SUBMIT)
+	Form::submit('save', 'Register',
+		array(	'class' => 'btn_blue rad5 rad15hover',
+				'id' => 'reg_btn')) //BUTTON (SUBMIT)
 .
 Form::close();
 ?>

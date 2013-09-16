@@ -5,7 +5,8 @@
 		<link rel="stylesheet" type="text/css" href="media/css/layout.css">
 	 	<link rel="stylesheet" type="text/css" href="media/css/logoandquote.css">
 		<link rel="stylesheet" type="text/css" href="media/css/login.css">
-				<link rel="stylesheet" type="text/css" href="media/css/register.css">
+		<link rel="stylesheet" type="text/css" href="media/css/register.css">
+		<link rel="stylesheet" type="text/css" href="media/css/form.css">
 
 		<!-- SCRIPTS -->
 
