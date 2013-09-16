@@ -1,18 +1,31 @@
 <?php 
+/*
+Naming/ID of objects EXAMPLE:
 
-echo Form::open('login');
-//echo Form::label('emaillbl', 'Email Address'); 
-echo Form::input('emailtxt',NULL,array( 'class' => 'txtbox',
-										'id' => 'emailtxt',
-										'placeholder' => '  Email')); 
- //echo Form::label('passwordlbl', 'Password');
+eg:				register_textboxfullname
 
-echo Form::password('password',NULL,array(	'class' => 'txtbox',
-                              				'id' => 'passtxt',
-                              				'placeholder' => '  Password')); 
+info:			(section/page) _ (type/class) (name)
 
-echo Form::submit('save', '  Login  ',array('class' => 'loginbtn blue',
-                              				'id' => 'loginbtn blue')); 
-echo Form::close(); 
+length:			[3] _ [3] [2-10]
+*/
+
+echo 
+Form::open('login')
+.
+	Form::input('emailtxt',NULL,
+		array(	'class' => 'txtbox',
+				'id' => 'emailtxt',
+				'placeholder' => '  Email'))
+	.
+	Form::password('password',NULL,
+		array(	'class' => 'txtbox',
+				'id' => 'passtxt',
+				'placeholder' => '  Password'))
+	.
+	Form::submit('save', '  Login  ',
+		array(	'class' => 'loginbtn blue',
+				'id' => 'loginbtn blue'))
+.
+Form::close();
 
 ?>

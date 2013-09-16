@@ -14,6 +14,7 @@ body{
 	background-color:#555555;
 	position:fixed;
 	clear:both;
+	z-index:99;
 }
 	#logo{
 		color:#cccccc;
@@ -75,9 +76,8 @@ body{
     position: fixed;
     border: 1px solid black;
 
-    top:50px;
-    right: -270px;
-    transition: 0s;
+    top:40px;
+    right:0px;
 }
 	#w_register:hover{
 	    transition: 1s;

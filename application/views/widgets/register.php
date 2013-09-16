@@ -1,31 +1,40 @@
 <?php 
-echo Form::open('user/register');
-echo Form::input('regfullnametxt',NULL,
-				array( 	'class' => 'txtbox',
-						'id' => 'regfullnametxt',
-						'placeholder' => '  Full Name')
-					 );
+/*
+Naming/ID of objects RULES:
 
-echo Form::image(NULL, NULL, array(	'src' => 'media/img/register.jpg',
-									'id' => 'registerbtn'));
-//echo Form::label('emaillbl', 'Email Address'); 
-echo Form::input('regemailtxt',NULL,array( 'class' => 'txtbox',
-											'id' => 'regemailtxt',
-											'placeholder' => '  Email')); 
- //echo Form::label('passwordlbl', 'Password');
+eg:				register_textboxfullname
 
-echo "<br>";
+info:			(section/page) _ (type/class) (db name)
 
-echo Form::password('regpassword',NULL,array(	'class' => 'txtbox',
-                              					'id' => 'regpasstxt',
-                              					'placeholder' => '  Password')); 
-echo Form::password('regretypepassword',NULL,array(	'class' => 'txtbox',
-                              						'id' => 'regretypepasstxt',
-                              						'placeholder' => '  Re-Type Password')); 
+length:			[3] _ [3] [2-10]
+*/
 
-echo Form::submit('save', '  Register  ',array(	'class' => 'registerbtn blue',
-                              					'id' => 'registerbtn blue')); 
-echo Form::close(); 
-
-/**/
+echo 
+Form::open('user/register') //User::register()
+.
+	Form::input('fname',NULL,
+		array( 	'class' => 'txtbox',
+				'id' => 'reg_txtfname',
+				'placeholder' => 'Full Name')) //FULL NAME
+	.
+	Form::input('email',NULL,
+		array( 'class' => 'txtbox',
+				'id' => 'reg_txtemail',
+				'placeholder' => 'Email')) //EMAIL
+	.
+	Form::password('pass',NULL,
+		array(	'class' => 'txtbox',
+				'id' => 'reg_txtpass',
+				'placeholder' => 'Password')) //PASSWORD
+	.
+	Form::password('regretypepassword',NULL,
+		array(	'class' => 'txtbox',
+				'id' => 'regretypepasstxt',
+				'placeholder' => 'Re-Type Password')) //RE-TYPE PASSWORD
+	.
+	Form::submit('save', '  Register  ',
+		array(	'class' => 'registerbtn blue',
+				'id' => 'registerbtn blue')) //BUTTON (SUBMIT)
+.
+Form::close();
 ?>
