@@ -22,10 +22,7 @@ body{
 		float:left;
 	}
 
-	#login{
-		margin:5px;
-		float:right;
-	}
+	/* #login @ login.css */
 
 /*........................................HEADER /**/
 #headerwrap{
@@ -72,14 +69,5 @@ body{
 
 
 /*.........................................WIDGETS /**/
-#w_register {
-    position: fixed;
-    border: 1px solid black;
 
-    top:40px;
-    right:0px;
-}
-	#w_register:hover{
-	    transition: 1s;
-	    right: 0;
-	}
+/* #w_register @ register.css */

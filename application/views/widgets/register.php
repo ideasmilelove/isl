@@ -32,9 +32,11 @@ Form::open('user/register') //User::register()
 				'id' => 'reg_txtpass2',
 				'placeholder' => 'Confirm Password')) //CONFIRM PASSWORD
 	.
-	Form::submit('save', 'Register',
+	Form::submit('save', 'Done',
 		array(	'class' => 'btn_blue rad5 rad15hover',
 				'id' => 'reg_btn')) //BUTTON (SUBMIT)
 .
-Form::close();
+Form::close()
+.
+"<div id='reg_lbl'><a>Register</a></div>";
 ?>

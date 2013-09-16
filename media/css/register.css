@@ -1,0 +1,29 @@
+#w_register {
+	position: fixed;
+	top:-125px;
+	right:0px;
+
+	height:185px;
+	overflow:hidden;
+
+	transition:0.5s;
+}
+	#w_register:hover{
+		top:30px;
+		height:160px;
+	    transition:0.5s;
+	}
+
+	#w_register .txtbox, #w_register .btn_blue, #w_register #reg_lbl{
+		float:right;
+		clear:right;
+
+		margin:5px 5px 0 0;
+	}
+
+	#w_register #reg_lbl{
+		color:#eeeeee;
+		text-align:right;
+		padding: 3px 14px;
+		width: 100px;
+	}
