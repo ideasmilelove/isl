@@ -1,6 +1,6 @@
 #w_register {
 	position: fixed;
-	top:-130px;
+	top:-140px;
 	right:0px;
 
 	height:210px;
@@ -27,6 +27,6 @@
 	#w_register #reg_lbl{
 		color:#eeeeee;
 		text-align:right;
-		padding: 3px 14px;
+		padding: 10px 15px;
 		width: 100px;
 	}
