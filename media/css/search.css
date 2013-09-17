@@ -1,9 +1,11 @@
+
 #search{
+	float:left;
 	margin-left: 100px;
 }
-#search .btn_blue{
-	width:20px;
-	text-align: center;
-	padding:5px 25px 5px 15px;
-	margin-left: 10px;
-}
+	#search .btn{
+		width:20px;
+		text-align: center;
+		padding:5px 25px 5px 15px;
+		margin-left: 10px;
+	}

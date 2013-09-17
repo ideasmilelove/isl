@@ -18,9 +18,8 @@
 
  		<div id="topbar">
 	 		<div id="logo">LOGO-HERE</div>
-	 		<div id="search"><?php echo $search ?></div>
-	 		<!-- login.php -->
-	 		<div id="login"><?php echo $loginandprofileform; ?></div>
+	 		<div id="search"><?php echo $form_search ?></div><!-- form_search.php -->
+	 		<div id="login"><?php echo $form_auth; ?></div><!-- form_auth.php -->
  		</div>
 
 

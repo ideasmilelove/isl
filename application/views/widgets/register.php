@@ -33,7 +33,7 @@ Form::open('user/register') //User::register()
 				'placeholder' => 'Confirm Password')) //CONFIRM PASSWORD
 	.
 	Form::submit('save', 'Done',
-		array(	'class' => 'btn_blue rad5 rad15hover',
+		array(	'class' => 'btn skin_blue rad5 rad15hover',
 				'id' => 'reg_btn')) //BUTTON (SUBMIT)
 .
 Form::close()

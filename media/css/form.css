@@ -1,4 +1,4 @@
-.txtbox{
+.txtbox{ /* txt core */
     font:13px bold Helvetica;
 	background: white;
 	box-shadow: 0 0 5px #333;
@@ -8,16 +8,16 @@
 	width: 165px;
 }
 
-/*
-========================================================BLUE BUTTON
-*/
-.btn, .btn_blue{ /* btn core */
+.btn{ /* btn core */
     box-shadow: 0 0 5px #333;
+
+    text-shadow: #29a3cc 0 1px 3px;
 	text-decoration: none;
 	font:13px bold Helvetica;
 	padding: 3px 14px;
 	width: 100px;
     max-width: 100px;
+
 	-webkit-transition: all 0.5s ease;
 	-moz-transition: all 0.5s ease;
 	-ms-transition: all 0.5s ease;
@@ -25,8 +25,15 @@
 	transition: all 0.5s ease;
 }
 
-/* BUTTON COLORS */
-.btn_blue{
+/*
+========================================================SKIN COLOR
+*/
+.skin_clear{
+    background: transparent;
+    border: none !important;
+}
+
+.skin_blue{
 	color: #fff;
 	background: #48C9FF;
 	background: -webkit-linear-gradient(top, #48C9FF 0%, #2EA8E5 100%);
@@ -34,7 +41,6 @@
 	background: -ms-linear-gradient(top, #48C9FF 0%, #2EA8E5 100%);
 	background: -o-linear-gradient(top, #48C9FF 0%, #2EA8E5 100%);
 	background: linear-gradient(bottom, #48C9FF 0%, #2EA8E5 100%);
-	text-shadow: #29a3cc 0 1px 3px;
 }
 
 /*

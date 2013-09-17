@@ -9,12 +9,15 @@
 	transition:0.5s;
 }
 	#w_register:hover{
+		/*border:1px double #fff;/**/
+		padding-top:30px;
+		padding-left:50px;
 		top:30px;
 		height:160px;
-	    transition:0.5s;
+	    transition:0.2s;
 	}
 
-	#w_register .txtbox, #w_register .btn_blue, #w_register #reg_lbl{
+	#w_register .txtbox, #w_register .btn, #w_register #reg_lbl{
 		float:right;
 		clear:right;
 

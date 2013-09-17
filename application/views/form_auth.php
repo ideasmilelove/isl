@@ -23,7 +23,7 @@ Form::open('login')
 				'placeholder' => 'Password'))
 	.
 	Form::submit('save', 'Log In',
-		array(	'class' => 'btn_blue rad5 rad15hover',
+		array(	'class' => 'btn skin_blue rad5 rad15hover',
 				'id' => 'log_btn'))
 .
 Form::close();

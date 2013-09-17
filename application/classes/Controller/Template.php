@@ -23,8 +23,8 @@ public $template = 'layout';
         View::bind_global('copyright',$this->copyright);
         View::bind_global('logo',$this->logo);
 
-        $this->template->search= View::factory('search');
-		$this->template->loginandprofileform = View::factory('login');
+        $this->template->form_search= View::factory('form_search');
+		$this->template->form_auth = View::factory('form_auth');
 		$this->template->register = View::factory('widgets/register');
 		$this->template->contentStuff = View::factory('frontpage');
     }
