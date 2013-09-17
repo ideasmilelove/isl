@@ -26,13 +26,7 @@
  		<div id="headerwrap">
 
 			<div id="header">
-				put interesting stuff here
-				<br>
-				<p style="margin-left:100px;">something very interesting................</p>
-				<br>
-				<p style="margin-left:200px;">something extremely nice and interesting please................</p>
-				<br>
-				<p style="margin-left:50px;">or just nice pictures................</p>
+			
 			</div>
 	 	</div>
 
