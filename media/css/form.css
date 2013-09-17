@@ -1,5 +1,5 @@
 .txtbox{ /* txt core */
-    font:13px bold Helvetica;
+    font:15px bold Helvetica;
 	background: white;
 	color: #666;
 	float: left;
@@ -9,7 +9,7 @@
 
 .btn{ /* btn core */
 	text-decoration: none;
-	font:13px bold Helvetica;
+	font:15px bold Helvetica;
 	padding: 3px 14px;
 	width: 100px;
     max-width: 100px;

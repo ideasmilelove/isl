@@ -10,7 +10,7 @@ length:			[3] _ [3] [2-10]
 */
 
 echo 
-"<div class='txtbox rad5'>"
+"<div class='txtbox rad15'>"
 .
 	Form::open('login')
 	.
