@@ -43,11 +43,17 @@
 ========================================================BORDERS
 */
 .rad5, .rad5hover:hover{
+    -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
     border-radius: 5px;
 }
 
 .rad15, .rad15hover:hover{
+    -webkit-border-radius: 15px;
     -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
     border-radius: 15px;
 }
