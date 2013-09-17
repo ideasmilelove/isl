@@ -22,3 +22,30 @@
 #7 C:\xampp\htdocs\isl\system\classes\Kohana\Request.php(986): Kohana_Request_Client->execute(Object(Request))
 #8 C:\xampp\htdocs\isl\index.php(118): Kohana_Request->execute()
 #9 {main} in C:\xampp\htdocs\isl\system\classes\Kohana\View.php:137
+2013-09-17 21:46:59 --- CRITICAL: ErrorException [ 4 ]: syntax error, unexpected ';' ~ APPPATH\views\form_search.php [ 28 ] in file:line
+2013-09-17 21:46:59 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in file:line
+2013-09-17 21:47:38 --- CRITICAL: ErrorException [ 4 ]: syntax error, unexpected ';' ~ APPPATH\views\form_search.php [ 28 ] in file:line
+2013-09-17 21:47:38 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in file:line
+2013-09-17 21:47:39 --- CRITICAL: ErrorException [ 4 ]: syntax error, unexpected ';' ~ APPPATH\views\form_search.php [ 28 ] in file:line
+2013-09-17 21:47:39 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in file:line
+2013-09-17 21:47:39 --- CRITICAL: ErrorException [ 4 ]: syntax error, unexpected ';' ~ APPPATH\views\form_search.php [ 28 ] in file:line
+2013-09-17 21:47:39 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in file:line
+2013-09-17 21:47:39 --- CRITICAL: ErrorException [ 4 ]: syntax error, unexpected ';' ~ APPPATH\views\form_search.php [ 28 ] in file:line
+2013-09-17 21:47:39 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in file:line
+2013-09-17 21:47:39 --- CRITICAL: ErrorException [ 4 ]: syntax error, unexpected ';' ~ APPPATH\views\form_search.php [ 28 ] in file:line
+2013-09-17 21:47:39 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in file:line
+2013-09-17 21:47:39 --- CRITICAL: ErrorException [ 4 ]: syntax error, unexpected ';' ~ APPPATH\views\form_search.php [ 28 ] in file:line
+2013-09-17 21:47:39 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in file:line
+2013-09-17 21:47:46 --- CRITICAL: ErrorException [ 4 ]: syntax error, unexpected ';' ~ APPPATH\views\form_search.php [ 24 ] in file:line
+2013-09-17 21:47:46 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in file:line
+2013-09-17 22:21:37 --- CRITICAL: ErrorException [ 1 ]: Call to undefined function base_url() ~ APPPATH\views\frontpage.php [ 1 ] in file:line
+2013-09-17 22:21:37 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in file:line

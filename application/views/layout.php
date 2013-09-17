@@ -3,11 +3,10 @@
 		<!-- STYLES -->
 	 	<link rel="stylesheet" type="text/css" href="media/css/normalize.css">
 		<link rel="stylesheet" type="text/css" href="media/css/layout.css">
-	 	<link rel="stylesheet" type="text/css" href="media/css/logoandquote.css">
-		<link rel="stylesheet" type="text/css" href="media/css/login.css">
 		<link rel="stylesheet" type="text/css" href="media/css/register.css">
 		<link rel="stylesheet" type="text/css" href="media/css/form.css">
-		<link rel="stylesheet" type="text/css" href="media/css/search.css">
+		<link rel="stylesheet" type="text/css" href="media/css/form_search.css">
+		<link rel="stylesheet" type="text/css" href="media/css/form_auth.css">
 
 		<!-- SCRIPTS -->
 

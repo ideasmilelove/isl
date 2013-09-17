@@ -1,1 +1,1 @@
-+
+<input name='sub_test' type="image" src="media/img/search.png" value='save_test' />

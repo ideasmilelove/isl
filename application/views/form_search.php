@@ -10,16 +10,21 @@ length:			[3] _ [3] [2-10]
 */
 
 echo 
-Form::open('login')
+"<div class='txtbox rad5'>"
 .
-	Form::input('search_txt',NULL,
-		array(	'class' => 'skin_clear',
-				'id' => 'search_txt',
-				'placeholder' => 'Search'))
+	Form::open('login')
 	.
-	Form::submit('save', 'Q',
-		array(	'class' => 'skin_clear',
-				'id' => 'search_btn'))
+		Form::input('search_txt',NULL,
+			array(	'class' => 'skin_clear',
+					'id' => 'search_txt',
+					'placeholder' => 'Search'))
+		.
+		Form::image('save', "s",
+			array(	'src' => "media/img/search.png",
+					'class' => 'skin_clear',
+					'id' => 'search_btn'))
+	.
+	Form::close()
 .
-Form::close();
+"</div>";
 ?>
