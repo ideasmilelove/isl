@@ -23,6 +23,7 @@ public $template = 'layout';
         View::bind_global('copyright',$this->copyright);
         View::bind_global('logo',$this->logo);
 
+        $this->template->search= View::factory('search');
 		$this->template->loginandprofileform = View::factory('login');
 		$this->template->register = View::factory('widgets/register');
 		$this->template->contentStuff = View::factory('frontpage');
