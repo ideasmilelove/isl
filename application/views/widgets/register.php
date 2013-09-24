@@ -10,7 +10,7 @@ length:			[3] _ [3] [2-10]
 */
 
 echo 
-Form::open('user') //User::register()
+Form::open('user/register') //User::register()
 .
 	Form::input('reg_txtfname',NULL,
 		array( 	'class' => 'txtbox rad5',

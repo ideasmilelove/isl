@@ -1,5 +1,5 @@
 <?php //base controller and model
-class Model_Crud extends ORM
+class Model_Crud extends Model
 {
 
 	function insert($table, $data){

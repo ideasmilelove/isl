@@ -4,7 +4,7 @@ return array(
     //'analytics' => FALSE, // analytics code goes here, set to FALSE to disable
 	 'default' => array
     (
-        'type'       => 'MySQL',
+        'type'       => 'mysql',
         'connection' => array(
             'hostname'   => 'localhost',
             'username'   => 'root',
